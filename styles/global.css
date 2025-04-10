@@ -23,6 +23,11 @@
 
 }
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 html, button{
   font: 500 1rem/1.5 var(--ff-base);
 }
@@ -44,4 +49,14 @@ h2{
 a{
   text-decoration: none;
   color: inherit;
+}
+
+@media (max-width: 768px) {
+  body {
+    min-width: 100vw;
+  }
+
+  h1{
+    font-size: 2rem; 
+  }
 }

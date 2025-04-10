@@ -22,7 +22,6 @@ section.gallery{
     "A B B"
     "C C D";
     gap: 2.5rem;
-
   }
   & figure{
     position: relative;
@@ -94,5 +93,22 @@ section.gallery{
   from {
     opacity: 0;
     transform: translateY(100%);
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery h2 {
+    font-size: 1.5rem;
+  }
+  section.gallery> .content{
+    grid-template-areas: 
+    "A"
+    "B"
+    "C"
+    "D";
+    img{
+      height: 16rem;
+      object-fit: cover;
+    }
   }
 }
