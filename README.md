@@ -23,4 +23,4 @@ Snitap Patins é um projeto de site desenvolvido com HTML e CSS, focado em ofere
 - CSS3
 
 ## Autor
-Desenvolvido por Matheus.
+Desenvolvido por Matheus Lima.
